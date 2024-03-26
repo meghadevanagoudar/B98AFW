@@ -1,0 +1,10 @@
+<suite name="AutomationSuite">
+  <test name="RegressionTestOnChrome">
+	<parameter name="browser" value="Edge"/>
+	<parameter name="grid" value="yes"/>
+	<parameter name="gridURL" value=" https://oauth-meghadevanagoudar25-42531:808bf474-cfc2-46eb-b2f6-4b8056ed53b2@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test> 
+</suite>
