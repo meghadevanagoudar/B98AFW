@@ -1,4 +1,4 @@
- package generic;
+  package generic;
 
 import java.io.FileInputStream;
 import java.util.Properties;

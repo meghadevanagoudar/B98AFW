@@ -8,53 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">AutomationSuite</th></tr>
-<tr><td><a href="#t0">RegressionTestOnChrome</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,542</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,461</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AutomationSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RegressionTestOnChrome &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">script.DemoTest2</td><td><a href="#m0">preCondition</a></td><td rowspan="1">1711363544024</td><td rowspan="1">970</td></tr><tr><th colspan="4">RegressionTestOnChrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">script.DemoTest</td><td><a href="#m1">testValidLogin</a></td><td rowspan="1">1711363540685</td><td rowspan="1">251</td></tr><tr><th colspan="4">RegressionTestOnChrome &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">script.DemoTest2</td><td><a href="#m2">postCondition</a></td><td rowspan="1">1711363544997</td><td rowspan="1">-1711363544997</td></tr><tr><th colspan="4">RegressionTestOnChrome &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">script.DemoTest2</td><td><a href="#m3">testInvalidLogin</a></td><td rowspan="1">1711363544995</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">script.InvalidLogin</td><td><a href="#m0">testInvalidLogin</a></td><td rowspan="1">1711519400497</td><td rowspan="1">1576</td></tr></tbody>
 </table>
-<h2>RegressionTestOnChrome</h2><h3 id="m0">script.DemoTest2#preCondition</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>public void script.DemoTest2.testInvalidLogin()</td><td>Edge</td><td>yes</td><td> https://oauth-meghadevanagoudar25-42531:808bf474-cfc2-46eb-b2f6-4b8056ed53b2@ondemand.eu-central-1.saucelabs.com:443/wd/hub</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Sauce could not start your job. For more information on what happened, please visit https://app.eu-central-1.saucelabs.com/tests/8fbc325ff3cc476d9401e6a85847c2d5 
-Host info: host: &apos;dbanashe-mac&apos;, ip: &apos;fe80:0:0:0:186e:566d:6fae:902a%en0&apos;
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at generic.BaseTest.preCondition(BaseTest.java:81)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">script.DemoTest#testValidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Google</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [xyz] but found [abc]
-	at script.DemoTest.testValidLogin(DemoTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">script.DemoTest2#postCondition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">script.DemoTest2#testInvalidLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: Sauce could not start your job. For more information on what happened, please visit https://app.eu-central-1.saucelabs.com/tests/8fbc325ff3cc476d9401e6a85847c2d5 
-Host info: host: &apos;dbanashe-mac&apos;, ip: &apos;fe80:0:0:0:186e:566d:6fae:902a%en0&apos;
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:139)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:162)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
-	at generic.BaseTest.preCondition(BaseTest.java:81)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">script.InvalidLogin#testInvalidLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">ErrMsg is Displayed:Invalid username and/or password.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
